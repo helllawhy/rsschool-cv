@@ -1,6 +1,6 @@
 # Dmitriy Muryzhnikov
 
-<img src="pictures/my photo.JPG" alt="Profile photo" width="200">
+<img src="pictures/my_photo.JPG" alt="Profile photo" width="200">
 
 ## Junior frontend developer
 
