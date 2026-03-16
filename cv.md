@@ -1,6 +1,6 @@
 # Dmitriy Muryzhnikov
 
-<img src="C:\Users\dmitr\OneDrive\Рабочий стол\rs_school\rsschool-cv\pictures\my photo.JPG" alt="Profile photo" width="200">
+<img src="pictures/my photo.JPG" alt="Profile photo" width="200">
 
 ## Junior frontend developer
 
