@@ -45,7 +45,7 @@ function multiply(a, b) {
 * **Ufa University of Science and Technology**
   
   - _Pedagogical education with dual specialization in English and German_
-* **RS Schools Course «JavaScript/Front-end. Stage 0» _(in progress..)_**
+* **RS School Course «JS / Front-end Pre-school RU Course» _(in progress..)_**
   - HTML
   - CSS
   - Git, GitHub
