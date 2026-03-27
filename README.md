@@ -1,1 +1,1 @@
-# rsschool-cv
+https://helllawhy.github.io/rsschool-cv/
