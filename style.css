@@ -77,7 +77,7 @@ body {
 .nav-list a:hover {
   color: #763913;
   border-bottom: 2px solid #763913;
-  padding-bottom: 2px; /* чтобы линия не подпрыгивала */
+  padding-bottom: 2px;
 }
 
 .top-section {
@@ -116,7 +116,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex; /* В РЯД */
+  display: flex; 
   gap: 60px;
   padding-top: 10px;
   margin-top: 80px;
