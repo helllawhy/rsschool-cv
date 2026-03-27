@@ -1,11 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Dmitriy Muryzhnikov</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="cv-container">
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills-tools">Skills & Tools</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <header class="top-section">
+        <img src="pictures/my_photo.JPG" alt="Profile photo" class="avatar" />
+
+        <div class="info">
+          <div class="name-title">
+            <h1><span class="highlight">Muryzhnikov</span> Dmitriy</h1>
+            <h2 class="subtitle">Front-End Developer (Beginner)</h2>
+          </div>
+          <ul class="contacts">
+            <li class="contact_item">
+              <h3>Location</h3>
+              <p>Moscow, Russia</p>
+            </li>
+            <li class="contact-item">
+              <h3>Phone number</h3>
+              <p>8(917)751-05-35</p>
+            </li>
+            <li class="contact_item">
+              <h3>Email</h3>
+              <span class="highlight">
+                <a href="mailto:deephstr@mail.ru">✉ deephstr@mail.ru</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <section class="section" id="about">
+          <div class="section-content">
+            <h2 class="section-title">About me</h2>
+            <div class="section-info">
+              <p>
+                I am an aspiring Frontend Developer. I am actively building my
+                skills through self-driven projects and hands-on practice. I
+                hold a degree in Pedagogical Education with a specialization in
+                English and German, which has strengthened my communication,
+                problem-solving, and organizational abilities. I have experience
+                creating engaging learning experiences for children in bilingual
+                settings, which has helped me foster creativity and clarity in
+                presenting complex ideas. I am passionate about technology,
+                photography, and digital creativity, and I am eager to
+                contribute to interactive, user-friendly web applications while
+                continuously learning and growing as a developer.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="skills-tools">
+          <div class="section-content">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="section-info">
+              <ul>
+                <li>HTML, CSS basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>Adobe Photoshop, FL Studio</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="code">
+          <div class="section-content">
+            <h2 class="section-title">Code example</h2>
+            <div class="section-info">
+              <!-- linthtml-disable indent-width -->
+              <pre><code>
+function multiply(a, b) {
+  return a * b;
+}
+          </code></pre>
+              <!-- linthtml-enable indent-width -->
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="education">
+          <div class="section-content">
+            <h2 class="section-title">Education</h2>
+            <div class="section-info">
+              <ul>
+                <li>Ufa University of Science and Technology</li>
+                <li>RS Schools Course (in progress)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="languages">
+          <div class="section-content">
+            <h2 class="section-title">Languages</h2>
+            <div class="section-info">
+              <ul>
+                <li>Russian (native)</li>
+                <li>English (C1)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-container" id="contacts">
+          <a
+            href="https://github.com/helllawhy"
+            target="_blank"
+            rel="noopener"
+            class="footer-link"
+          >
+            <img
+              src="pictures/logos/github-svgrepo-com.svg"
+              alt="GitHub"
+              class="footer-logo"
+            />
+          </a>
+
+          <a
+            href="https://rs.school/courses/javascript-preschool-ru"
+            target="_blank"
+            rel="noopener"
+            class="footer-link"
+            id="rsschool"
+          >
+            <img
+              src="pictures/logos/rs-school-logo.svg"
+              alt="RS School"
+              class="footer-logo"
+            />
+          </a>
+
+          <a
+            href="https://vk.com/dmitrii5"
+            target="_blank"
+            rel="noopener"
+            class="footer-link"
+          >
+            <img
+              src="pictures/logos/vk-svgrepo-com.svg"
+              alt="VK"
+              class="footer-logo"
+            />
+          </a>
+
+          <a
+            href="https://www.instagram.com/helllawhy/"
+            target="_blank"
+            rel="noopener"
+            class="footer-link"
+          >
+            <img
+              src="pictures/logos/instagram-alt-svgrepo-com.svg"
+              alt="Instagram"
+              class="footer-logo"
+            />
+          </a>
+        </div>
+        <span class="footer-year"><b>Dmitriy Muryzhnikov 2026</b></span>
+      </footer>
+    </div>
+  </body>
 </html>
